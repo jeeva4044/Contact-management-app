@@ -12,6 +12,7 @@ The app uses the following APIs to fetch data:
 
 #Technologies Used in:
 - ReactJS
+- JavaScript
 - TypeScript
 - TailwindCSS
 - React Router v6
