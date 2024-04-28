@@ -1,4 +1,4 @@
-.App {
+/* .App {
   display: flex;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
@@ -40,4 +40,75 @@
   }
 }
 
+ */
+ .App {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(71, 37, 163);
+  min-height: 100vh; 
 
+ }
+
+ 
+ .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out; 
+ }
+ 
+ .App-logo:hover {
+  transform: scale(1.1);
+ }
+ 
+ @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+     animation: App-logo-spin infinite 20s linear;
+  }
+ }
+ 
+ .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0 1rem; 
+ }
+ 
+ .App-link {
+  color: #61dafb;
+  text-decoration: none; 
+  transition: color 0.3s ease-in-out; 
+ }
+ 
+ .App-link:hover {
+  color: #ffffff; 
+ }
+ 
+ @keyframes App-logo-spin {
+  from {
+     transform: rotate(0deg);
+  }
+  to {
+     transform: rotate(360deg);
+  }
+ }
+ 
+ 
+ @media (max-width: 768px) {
+  .App-header {
+     padding: 0 2rem; 
+  }
+ }
+ 
+ @media (max-width: 480px) {
+  .App-header {
+     padding: 0 1rem; 
+  }
+
+ }
+ 

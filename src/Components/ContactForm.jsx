@@ -34,9 +34,8 @@ function ContactForm() {
         dispatch(addContact(form))
 
     }
-
     return (
-        <div className="w-1/2 mx-auto my-4 pt-16">
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-4 pt-16">
             <h2 className="text-2xl font-semibold text-purple-200 mb-2">Create Contact</h2>
             <div className="mb-4">
                 <label className="block font-bold mb-2" htmlFor="first-name">
@@ -65,12 +64,12 @@ function ContactForm() {
                 />
             </div>
             <div className="mb-4">
-                <label className="block font-bold mb-2" htmlFor="last-name">
+                <label className="block font-bold mb-2" htmlFor="mobile-number">
                     Mobile Number
                 </label>
                 <input
                     className="w-full border border-gray-400 p-2 rounded-md"
-                    id="last-name"
+                    id="mobile-number"
                     type="number"
                     name="mob"
                     min='10'
@@ -102,6 +101,7 @@ function ContactForm() {
             </button>
         </div>
     );
+    
 }
 
 
